@@ -13,9 +13,9 @@ const Navigation = () => {
                         <h3>Chuck Norris</h3>
                     </Col>
                     <Col xl={6} sm={12} className="navigation__nav">
-                        <p onClick={() => navigate('/Chuck/home')}>Home</p>
-                        <p onClick={() => navigate('/Chuck/categories')}>Categories</p>
-                        <p onClick={() => navigate('/Chuck/joke')}>Joke</p>
+                        <p onClick={() => navigate('/ChuckNorris/home')}>Home</p>
+                        <p onClick={() => navigate('/ChuckNorris/categories')}>Categories</p>
+                        <p onClick={() => navigate('/ChuckNorris/joke')}>Joke</p>
                     </Col>
                 </Row>
             </Container>

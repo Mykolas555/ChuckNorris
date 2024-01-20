@@ -52,7 +52,7 @@ const Categories = () => {
                     <Row className="mt-2">
                         <Col>
                             <div className="card">
-                                <h5 className="card-header">Random selected category joke</h5>
+                                <h5 className="card-header">Random {selectedCategory} joke</h5>
                                 <div className="card-body">
                                     <p className="card-text">{randomJoke.value}</p>
                                 </div>

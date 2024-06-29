@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+      125deg,
+      hsl(240deg 94% 51%) 0%,
+      hsl(341deg 29% 59%) 25%,
+      hsl(48deg 78% 47%) 45%,
+      hsl(19deg 75% 53%) 61%,
+      hsl(21deg 54% 53%) 75%,
+      hsl(127deg 40% 57%) 86%,
+      hsl(147deg 68% 62%) 95%,
+      hsl(144deg 91% 79%) 101%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  #root, .main {
+    height: 100%;
+  }
+  

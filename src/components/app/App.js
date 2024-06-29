@@ -1,5 +1,5 @@
 import Home from "../home/Home";
-import Video from "../video/Video";
+import "../app/app.scss"
 import Navigation from "../navigation/Navigation";
 import Joke from "../joke/Joke";
 import Categories from "../categories/Categories";
@@ -7,8 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Video/>
+    <div className="main">
       <Router>
         <Navigation />
         <Routes>
@@ -17,7 +16,7 @@ function App() {
           <Route path="/joke" element={<Joke />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 

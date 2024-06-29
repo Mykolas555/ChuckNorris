@@ -1,0 +1,13 @@
+.joke{
+    margin-top: 2rem;
+    &__header{
+        h6{
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+        }
+    }
+    &__button{
+        text-align: center;
+    }
+}
